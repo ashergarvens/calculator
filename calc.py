@@ -15,6 +15,8 @@ class Calc:
     
     def div(self, a, b):
         """Divide two numbers"""
+        if b == 0:
+            return None
         return a / b
     
     def pow(self, a, b):
